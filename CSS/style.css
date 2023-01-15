@@ -138,6 +138,8 @@ header {
 /* team */
 .team__container {
     display: flex;
+    align-items: center;
+    gap: 73px;
     margin: 85px 0 85px 0;
 }
 
@@ -147,8 +149,42 @@ header {
     gap: 24px;
 }
 
+.team__title {
+    font-size: 45px;
+    line-height: 53px;
+
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+.team__desc {
+    margin: 32px 0 32px 0;
+}
+
+.team__title--black {
+    color: #000000;
+}
+
+.team__title--orange {
+    color: var(--primary-color);
+}
+
+.team__desc {
+    line-height: 26px;
+    /* or 162% */
 
 
+    /* Dark 03 */
+
+    color: #727272;
+}
+
+/* experience */
+.experience__container {
+    display: flex;
+    align-items: center;
+}
 
 
 
